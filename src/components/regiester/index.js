@@ -39,6 +39,9 @@ console.log(formData)
 console.log(response)
         if (response.ok) {
           console.log('Data added to the database');
+          setFirstName('');
+        setLastName('');
+        setEmail('');
           
         } else {
           console.error('Failed to add data to the database');
